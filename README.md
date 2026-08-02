@@ -12,7 +12,7 @@ D-one 是一款极简、始终置顶的 macOS 桌面优先级便签。它不试�
 
 ## 下载
 
-前往 [最新 Release](https://github.com/acekira3-afk/d-one-releases/releases/latest) 下载 Universal DMG。
+前往 [D-one 2nd EDITION ver2.31](https://github.com/acekira3-afk/d-one-releases/releases/tag/v2.31) 下载 Universal DMG。
 
 - 支持 Apple 芯片与 Intel Mac
 - 需要 macOS 14 或更高版本
@@ -63,4 +63,3 @@ D-one is a minimal always-on-top priority note for macOS. It keeps your most imp
 The current release is a personal, non-commercial public test build. It supports both Apple Silicon and Intel Macs running macOS 14 or later. The build is ad-hoc signed and not Apple-notarized, so macOS may require the right-click **Open** flow on first launch.
 
 This is an unofficial fan-made derivative project. Character-related rights belong to their respective rightsholders. AI-assisted character artwork is used only for this non-commercial test presentation. No affiliation, endorsement, sponsorship, or official authorization is claimed.
-
