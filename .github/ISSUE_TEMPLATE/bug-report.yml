@@ -1,0 +1,62 @@
+name: 错误反馈 / Bug report
+description: 报告安装、启动、显示或操作问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢测试 D-one。请不要在反馈中提供密码、Apple ID 或其他敏感信息。
+  - type: input
+    id: mac
+    attributes:
+      label: Mac 型号与芯片
+      description: 例如 MacBook Air M3、Mac mini Intel
+      placeholder: MacBook Air M3
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 版本
+      placeholder: macOS 15.6
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 问题发生在哪一步？
+      options:
+        - 下载或打开 DMG
+        - 将应用拖入 Applications
+        - 首次启动
+        - 添加或编辑事项
+        - 拖动排序
+        - 单行模式
+        - 隐藏事项
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重现步骤
+      description: 请按顺序说明你做了什么、看到什么。
+      placeholder: |
+        1. 打开 D-one
+        2. 点击……
+        3. 出现……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期待的结果
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 截图或补充信息
+      description: 可以直接拖入截图；请先遮挡个人信息。
