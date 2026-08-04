@@ -1,45 +1,82 @@
 # D-one
 
 <p align="center">
-  <img src="assets/d-one-app-icon-1024.png" width="180" alt="D-one app icon">
+  <img src="assets/d-one-product-cover-1920x1080.png" width="960" alt="D-one 2nd EDITION ver2.31 产品展示">
 </p>
 
 <p align="center"><strong>一次只关注最重要的一件事。</strong></p>
 
-D-one 是一款极简、始终置顶的 macOS 桌面优先级便签。它不试图成为复杂的项目管理器，而是让当前最重要的事项一直保持可见。
+<p align="center">
+  <a href="https://github.com/acekira3-afk/d-one-releases/releases/download/v2.31/D-one.2nd.EDITION.ver2.31.dmg"><strong>⬇️ 下载 D-one 2nd EDITION ver2.31</strong></a>
+  ·
+  <a href="https://github.com/acekira3-afk/d-one-releases/issues/new/choose">提交反馈</a>
+</p>
 
-> 当前版本：**D-one 2nd EDITION ver2.31**（非商业公开测试版）
+D-one 是一款极简、始终置顶的 macOS 桌面优先级便签。把事项拖到最上方，它就成为当前优先级最高的任务；切换到单行模式后，桌面上只保留这一件事。
 
-## 下载
+> 当前为个人制作的非商业公开测试版。源码保持私有，本仓库只用于展示、反馈和分发经过校验的测试构建。
 
-前往 [D-one 2nd EDITION ver2.31](https://github.com/acekira3-afk/d-one-releases/releases/tag/v2.31) 下载 Universal DMG。
+## 8 秒看懂 D-one
 
-- 支持 Apple 芯片与 Intel Mac
-- 需要 macOS 14 或更高版本
-- 当前为临时签名、尚未经过 Apple 公证的测试包
+<p align="center">
+  <img src="assets/d-one-demo.gif" width="720" alt="D-one 添加和编辑事项演示">
+</p>
 
-## 主要功能
+## 它解决什么问题
 
-- 小窗口始终置顶，低干扰地留在桌面
-- 直接点击文字编辑事项
-- 拖动事项决定优先顺序
-- 单行模式只显示最高优先级事项
-- 可单独隐藏事项并集中管理
-- 颜色仅用于任务分类
-- 2nd EDITION 歌姬主题
+日常工作时，新想法经常突然出现，原本正在做的事情很容易被打断。D-one 不建立复杂的项目体系，只把当前最重要的事项持续留在桌面前端。
+
+- **始终置顶**：小窗口低干扰地停留在桌面
+- **直接编辑**：点击便签文字即可输入和修改
+- **拖动排序**：从上到下就是事项优先级
+- **单行聚焦**：只显示最上方、优先级最高的事项
+- **独立隐藏**：暂时不想看到的事项可以保留但隐藏
+- **颜色分类**：颜色只代表类别，不会改变排序规则
+- **2nd EDITION主题**：分类与背景随角色主题变化
+
+| 编辑与分类 | 单行聚焦 |
+| --- | --- |
+| ![编辑事项与颜色分类](assets/screenshots/editing-and-tasks.jpg) | ![单行模式与优先事项](assets/screenshots/single-line-mode.jpg) |
+
+## 下载与系统要求
+
+| 项目 | 说明 |
+| --- | --- |
+| 当前版本 | D-one 2nd EDITION ver2.31 |
+| 下载 | [Universal DMG（直接下载）](https://github.com/acekira3-afk/d-one-releases/releases/download/v2.31/D-one.2nd.EDITION.ver2.31.dmg) |
+| 处理器 | Apple Silicon 与 Intel Mac |
+| 系统 | macOS 14 或更高版本 |
+| 签名状态 | 临时签名，尚未经过 Apple 公证 |
+| SHA-256 | `c342265c943f0be299851e617b915574129b09fa3fc3c96045c5a68a71c2fc41` |
+
+完整发布说明位于 [v2.31 Release 页面](https://github.com/acekira3-afk/d-one-releases/releases/tag/v2.31)。请只从本仓库下载测试包。
 
 ## 安装与首次打开
 
-1. 打开下载的 DMG。
+1. 下载并打开 DMG。
 2. 将 `D-one.app` 拖入 `Applications`。
-3. 因测试版尚未经过 Apple 公证，首次启动时请在 Finder 中右键 `D-one.app`，选择“打开”。
-4. 如果仍被系统阻止，请前往“系统设置 → 隐私与安全性”，选择“仍要打开”。
+3. 因测试版尚未经过 Apple 公证，首次启动请在 Finder 中右键 `D-one.app`，选择 **打开**。
+4. 如果仍被系统阻止，请前往 **系统设置 → 隐私与安全性 → 仍要打开**。
 
-请只从本仓库的 Releases 页面下载测试包。
+无需关闭 Gatekeeper，也不要在聊天或任何第三方页面输入系统密码。
 
-## 反馈与 Star
+## 参与测试
 
-欢迎通过 [Issues](https://github.com/acekira3-afk/d-one-releases/issues) 提交体验反馈。如果你喜欢“一次只做一件事”的设计，也欢迎为仓库点一个 Star。
+如果你愿意帮忙测试，最有价值的信息是：
+
+1. Mac 型号、芯片和 macOS 版本。
+2. 是否能够正常安装并首次打开。
+3. 哪个操作让你困惑或没有达到预期。
+4. 你是否愿意每天把它留在桌面上。
+
+可以使用 [错误反馈](https://github.com/acekira3-afk/d-one-releases/issues/new?template=bug-report.yml) 或 [功能建议](https://github.com/acekira3-afk/d-one-releases/issues/new?template=feature-request.yml)。如果“一次只做一件事”的设计对你有帮助，也欢迎点一个 Star，让更多人看到它。
+
+## 接下来
+
+- 收集不同 Intel 与 Apple Silicon Mac 的真实测试结果
+- 继续改善单行模式和隐藏事项管理
+- 准备完全原创的 Classic 视觉主题
+- 评估正式 Developer ID 签名与 Apple 公证
 
 ## 非官方二次创作声明
 
@@ -52,14 +89,18 @@ D-one 是一款极简、始终置顶的 macOS 桌面优先级便签。它不试�
 - 角色插图由 AI 辅助生成，仅用于本非商业测试版的视觉展示。
 - 本仓库不授予任何第三方角色、名称或形象的再利用权利。
 
-软件交互与程序由 D-one 项目制作。源码目前保持私有，本仓库仅用于公开展示和分发非商业测试构建。
+软件交互与程序由 D-one 项目制作。软件的抽象想法、处理过程和操作方法不因本说明而被声明为第三方角色权利的一部分。
 
 ---
 
 ## English
 
-D-one is a minimal always-on-top priority note for macOS. It keeps your most important task visible without turning into a full project-management system.
+**D-one** is a minimal, always-on-top priority note for macOS. Drag a task to the top to make it the current priority, or switch to single-line mode to keep only that one task visible.
 
-The current release is a personal, non-commercial public test build. It supports both Apple Silicon and Intel Macs running macOS 14 or later. The build is ad-hoc signed and not Apple-notarized, so macOS may require the right-click **Open** flow on first launch.
+- [Download the Universal DMG](https://github.com/acekira3-afk/d-one-releases/releases/download/v2.31/D-one.2nd.EDITION.ver2.31.dmg)
+- Supports Apple Silicon and Intel Macs
+- Requires macOS 14 or later
+- Ad-hoc signed and not Apple-notarized; use Finder's right-click **Open** flow on first launch
+- SHA-256: `c342265c943f0be299851e617b915574129b09fa3fc3c96045c5a68a71c2fc41`
 
-This is an unofficial fan-made derivative project. Character-related rights belong to their respective rightsholders. AI-assisted character artwork is used only for this non-commercial test presentation. No affiliation, endorsement, sponsorship, or official authorization is claimed.
+This is an unofficial, personal, non-commercial public test build. Character-related rights belong to their respective rightsholders. No affiliation, endorsement, sponsorship, or official authorization is claimed. Source code remains private; this repository is used for presentation, verified test downloads, and feedback.
