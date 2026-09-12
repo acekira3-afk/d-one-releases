@@ -2,6 +2,7 @@
 
 ## D-one 2nd EDITION ver2.32 preview
 
+- Published the buildable preview source for inspection and testing, without bundling local user data or credentials.
 - Added a separate detail window with multiple editable subnotes per task.
 - Subnote window colors and character accents follow the parent task category.
 - Added a character-only desktop preview mode with adjustable size.

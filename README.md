@@ -14,9 +14,9 @@
 
 D-one 是一款极简、始终置顶的 macOS 桌面优先级便签。把事项拖到最上方，它就成为当前优先级最高的任务；切换到单行模式后，桌面上只保留这一件事。
 
-> 当前为个人制作的非商业公开测试版。源码保持私有，本仓库只用于展示、反馈和分发经过校验的测试构建。
+> 当前为个人制作的非商业公开测试版。ver2.32 preview 的[可构建源码](source/ver2.32-preview/)已公开供查看和测试；代码暂未选定开源许可证，角色素材也不因此获得额外授权。
 
-**尝鲜预览：** [下载 ver2.32 preview DMG](https://github.com/acekira3-afk/d-one-releases/raw/refs/heads/main/downloads/D-one-2nd-EDITION-ver2.32-preview.dmg) · [查看变更和校验值](RELEASE-NOTES-v2.32-preview.md)。本版新增每条主便签的独立子便签窗口、跟随分类的配色、角色桌面形象，以及实验性的模型对话。它与 v2.31 使用独立应用标识，便签数据不会自动同步；正式推荐下载仍是上方的 v2.31。
+**尝鲜预览：** [下载 ver2.32 preview DMG](https://github.com/acekira3-afk/d-one-releases/raw/refs/heads/main/downloads/D-one-2nd-EDITION-ver2.32-preview.dmg) · [查看源码](source/ver2.32-preview/) · [查看变更和校验值](RELEASE-NOTES-v2.32-preview.md)。本版新增每条主便签的独立子便签窗口、跟随分类的配色、角色桌面形象，以及实验性的模型对话。它与 v2.31 使用独立应用标识，便签数据不会自动同步；正式推荐下载仍是上方的 v2.31。
 
 ## 8 秒看懂 D-one
 
@@ -105,4 +105,4 @@ D-one 是一款极简、始终置顶的 macOS 桌面优先级便签。把事项�
 - Ad-hoc signed and not Apple-notarized; use Finder's right-click **Open** flow on first launch
 - SHA-256: `c342265c943f0be299851e617b915574129b09fa3fc3c96045c5a68a71c2fc41`
 
-This is an unofficial, personal, non-commercial public test build. Character-related rights belong to their respective rightsholders. No affiliation, endorsement, sponsorship, or official authorization is claimed. Source code remains private; this repository is used for presentation, verified test downloads, and feedback.
+This is an unofficial, personal, non-commercial public test build. The [ver2.32 preview source](source/ver2.32-preview/) is available for inspection and testing, but no code license has been chosen. Character-related rights belong to their respective rightsholders; publishing the source does not grant rights to those assets. No affiliation, endorsement, sponsorship, or official authorization is claimed.
