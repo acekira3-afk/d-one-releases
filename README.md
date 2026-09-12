@@ -16,6 +16,8 @@ D-one 是一款极简、始终置顶的 macOS 桌面优先级便签。把事项�
 
 > 当前为个人制作的非商业公开测试版。源码保持私有，本仓库只用于展示、反馈和分发经过校验的测试构建。
 
+**尝鲜预览：** [下载 ver2.32 preview DMG](https://github.com/acekira3-afk/d-one-releases/raw/refs/heads/main/downloads/D-one-2nd-EDITION-ver2.32-preview.dmg) · [查看变更和校验值](RELEASE-NOTES-v2.32-preview.md)。本版新增每条主便签的独立子便签窗口、跟随分类的配色、角色桌面形象，以及实验性的模型对话。它与 v2.31 使用独立应用标识，便签数据不会自动同步；正式推荐下载仍是上方的 v2.31。
+
 ## 8 秒看懂 D-one
 
 <p align="center">
